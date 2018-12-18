@@ -291,11 +291,13 @@ public class AdminDAO {
 			System.out.println("연결 성공");
 				
 
-			sql = "update adminmember set pw=? where id=?";
+			sql = "update adminmember set pw=?, email = ?, tel = ?  where id=?";
 			ps = con.prepareStatement(sql);
 
 			ps.setString(1, dto.getPw());
-			ps.setString(2, dto.getId());
+			ps.setString(2, dto.getEmail());
+			ps.setString(3, dto.getTel());
+			ps.setString(4, dto.getId());
 			
 			// 실행 요청
 			ps.executeUpdate();

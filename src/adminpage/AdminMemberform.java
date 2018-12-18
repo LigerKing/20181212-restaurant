@@ -115,6 +115,8 @@ public class AdminMemberform extends JFrame {
 
 				dto.setId(idField.getText()); // 입력된 아이디를 가져와 dto에 저장
 				dto.setPw(pwtextField.getText());// 입력된 비밀번호를 가져와 dto에 저장
+				dto.setEmail(emailField.getText()); 
+				dto.setTel(telField.getText()); 
 
 
 				try {

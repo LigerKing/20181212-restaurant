@@ -208,7 +208,7 @@ public class ReviewDAO {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection(url, user, password);
 
-		sql = "select * from review where title like ?";
+		sql = "select * from review where content like ?";
 		PreparedStatement ps = con.prepareStatement(sql);
 		ps.setString(1, "%"+content+"%");
 

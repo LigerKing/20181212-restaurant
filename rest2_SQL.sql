@@ -142,7 +142,7 @@ insert into review values(null, 'min5', 'min5 test2', 'food is not good', '3');
 insert into review values(null, 'min6', 'min6 test2', 'food is not good', '4');
 insert into review values(null, 'min7', 'min7 test2', 'food is not good', '2');
 insert into review values(null, 'min8', 'min8 test2', 'food is not good', '1');
-insert into review values(null, 'min9', 'min9 test2', 'food is not good', '1');
+insert into review values(null, 'min9', 'min9 test2', 'food is not good', '2');
 
 
 
